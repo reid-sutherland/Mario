@@ -20,7 +20,7 @@ First look at the Mario images we have inside of the images directory.
 Look in your "Project navigation" window on the left side of the screen.
 Double click on the "images" directory to expand it, and notice the mario images we have.
 
-![image](https://github.com/reid-sutherland/Mario/tree/master/extra_images/image1.png "mario images")
+![alt text](https://github.com/reid-sutherland/Mario/tree/master/extra_images/image1.png "mario images")
 
 Mostly we will be looking at the code in the Mario class, and the Controller class
 
