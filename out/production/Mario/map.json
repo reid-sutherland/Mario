@@ -1,0 +1,1 @@
+{"sprites":[{"type":"Mario","x":500,"y":501,"w":60,"h":95,"vert_vel":0.0},{"type":"Ground","x":0,"y":596,"w":1920,"h":1},{"type":"CoinBlock","x":600,"y":200},{"type":"CoinBlock","x":1000,"y":200},{"type":"Brick","x":700,"y":500},{"type":"Brick","x":900,"y":500},{"type":"Brick","x":300,"y":300},{"type":"Brick","x":842,"y":289},{"type":"CameraPos","CP":0}]}
