@@ -6,12 +6,12 @@ Click [here](https://github.com/reid-sutherland/Pokemon) to see the tutorial.
 Once you've got it running on your computer, try playing the game
 
 #### Controls
-The arrow keys will let you walk forward and backward.
-Spacebar will let you jump
-Left-clicking anywhere on the map will add a **Brick** object to the map.
-Shift-clicking (hold down shift and left-click the mouse) anywhere on the map will add a **Coin Block** object to the map
-Pressing **s** will save the map you have created.
-Pressing **l** will load your last-saved map.
+* The arrow keys will let you walk forward and backward.
+* Spacebar will let you jump
+* Left-clicking anywhere on the map will add a **Brick** object to the map.
+* Shift-clicking (hold down shift and left-click the mouse) anywhere on the map will add a **Coin Block** object to the map
+* Pressing **s** will save the map you have created.
+* Pressing **l** will load your last-saved map.
 
 ### Time for animation!
 Notice that the Mario image doesn't change, so it doesn't really look like he's walking. Let's fix that!
