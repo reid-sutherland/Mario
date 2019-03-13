@@ -20,15 +20,15 @@ First look at the Mario images we have inside of the images directory.
 Look in your "Project navigation" window on the left side of the screen.
 Double click on the "images" directory to expand it, and notice the mario images we have.
 
-![image](https://github.com/reid-sutherland/Mario/tree/master/extra_images/image1.png "mario images")
+![image](https://github.com/reid-sutherland/Mario/blob/master/extra_images/image1.png "mario images")
 
 Mostly we will be looking at the code in the Mario class, and the Controller class
 
-![image](https://github.com/reid-sutherland/Mario/tree/master/extra_images/image2.png "mario controller")
+![image](https://github.com/reid-sutherland/Mario/blob/master/extra_images/image2.png "mario controller")
 
 Open up the Mario class, and look for the "contructor", which looks like this:
 
-![image](https://github.com/reid-sutherland/Mario/tree/master/extra_images/loadimages.png "load images")
+![image](https://github.com/reid-sutherland/Mario/blob/master/extra_images/loadimages.png "load images")
 
 The code in the red box is where we create an "array" (or list) of different mario images.
 
@@ -40,7 +40,7 @@ Recall that this line of code means we are creating an Integer, called "marioAni
 
 Now, scroll down and look for a function called "draw" in the Mario class:
 
-![image](https://github.com/reid-sutherland/Mario/tree/master/extra_images/draw.png "draw")
+![image](https://github.com/reid-sutherland/Mario/blob/master/extra_images/draw.png "draw")
 
 This function draws the mario image every time the screen refreshes.
 Notice the marioAnimation variable, which is underlined.
