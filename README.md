@@ -34,7 +34,7 @@ The code in the red box is where we create an "array" (or list) of different mar
 
 Also, look for the "marioAnimation" integer.
 
-![image](https://github.com/reid-sutherland/Mario/tree/master/extra_images/marioAnimation.png "mario animation)
+![image](https://github.com/reid-sutherland/Mario/tree/master/extra_images/marioAnimation.png "mario animation")
 
 Recall that this line of code means we are creating an Integer, called "marioAnimation", and initializing it to 0.
 
