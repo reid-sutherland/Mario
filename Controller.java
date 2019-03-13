@@ -92,12 +92,12 @@ class Controller implements ActionListener, MouseListener, KeyListener
 				break;
 				
 			case KeyEvent.VK_S:	
-				model.save("map.json"); 
+				//model.save("map.json");
 				System.out.println("Saved");
 				break;
 				
 			case KeyEvent.VK_L: 
-				model.load("map.json"); 
+				//model.load("map.json");
 				System.out.println("Loaded");
 				break;
 				

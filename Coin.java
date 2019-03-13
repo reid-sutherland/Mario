@@ -27,22 +27,7 @@ public class Coin extends Sprite
 		w = coinImage.getWidth();
 		h = coinImage.getHeight();
 	}
-	
-	Coin(Json ob, Model _m)
-    {        
-        x = (int)ob.getLong("x");
-		y = (int)ob.getLong("y");
-		model = _m;
-		
-		hor_vel = ob.getDouble("hor_vel");
-		vert_vel = ob.getDouble("vert_vel");
-		
-		if(coinImage == null)
-			coinImage = loadImage("images/Coin.png");
-		
-		w = coinImage.getWidth();
-		h = coinImage.getHeight();
-    }
+
 
 	boolean update() 
 	{
@@ -64,7 +49,7 @@ public class Coin extends Sprite
 		g.drawImage(coinImage,x - cameraPos, y, null);
 	}
 
-	boolean isMario() 
+	boolean isMario()
 	{
 		return false;
 	}
@@ -80,15 +65,5 @@ public class Coin extends Sprite
 	}
 	
 
-	Json marshal() 
-	{
-		Json ob = Json.newObject();
-		ob.add("type", "Coin");
-        ob.add("x", x);
-		ob.add("y", y);
-		ob.add("vert_vel", vert_vel);
-		ob.add("hor_vel", hor_vel);
-        return ob;
-	}
 
 }

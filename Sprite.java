@@ -28,8 +28,7 @@ abstract class Sprite
 	
 	abstract boolean isCoin();
 	
-	abstract Json marshal();
-	
+
 	//Detects collision between two Sprites
 	//Returns true if there is collision
 	static boolean detectCollision(Sprite s1, Sprite s2)

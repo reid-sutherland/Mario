@@ -48,14 +48,7 @@ class Mario extends Sprite
 		w = images.get(0).getWidth();
 		h = images.get(0).getHeight();
 	}
-	
-	Mario(Json ob, Model _m)
-    {        
-        x = (int)ob.getLong("x");
-		y = (int)ob.getLong("y");
-		vert_vel = (int)ob.getDouble("vert_vel");
-		model = _m;
-    }
+
 	
 	
 	public void updateMarioAnimation()
@@ -168,18 +161,7 @@ class Mario extends Sprite
 	{
 		return false;
 	}
-	
-	Json marshal()
-	{
-		Json ob = Json.newObject();
-		ob.add("type", "Mario");
-        ob.add("x", x);
-		ob.add("y", y);
-		ob.add("w", w);
-		ob.add("h", h);
-		ob.add("vert_vel", vert_vel);
-        return ob;
-	}
+
 	
 	
 	

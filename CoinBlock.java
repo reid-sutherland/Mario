@@ -27,19 +27,7 @@ class CoinBlock extends Sprite
 		w = blockFull.getWidth();
 		h = blockFull.getHeight();
 	}
-	
-	CoinBlock(Json ob, Model _m)
-    {        
-        x = (int)ob.getLong("x");
-		y = (int)ob.getLong("y");
-		model = _m;
-		
-		//Get starting width and height
-		w = blockFull.getWidth();
-		h = blockFull.getHeight();
-		
-		collision = true;
-    }
+
 	
 	public boolean fromBottom(Sprite s1, Sprite s2)
 	{
@@ -113,15 +101,4 @@ class CoinBlock extends Sprite
 	{
 		return false;
 	}
-	
-
-	Json marshal() 
-	{
-		Json ob = Json.newObject();
-		ob.add("type", "CoinBlock");
-        ob.add("x", x);
-		ob.add("y", y);
-        return ob;
-	}
-
 }

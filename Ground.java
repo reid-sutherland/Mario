@@ -16,17 +16,7 @@ public class Ground extends Sprite {
 
 		collision = true;
 	}
-	
-	Ground(Json ob, Model _m)
-    {        
-        x = (int)ob.getLong("x");
-		y = (int)ob.getLong("y");
-		w = (int)ob.getDouble("w");
-		h = (int)ob.getDouble("h");
-		model = _m;
-		
-		collision = true;
-    }
+
 	
 	boolean update() 
 	{
@@ -57,15 +47,5 @@ public class Ground extends Sprite {
 		return false;
 	}
 
-	Json marshal() 
-	{
-		Json ob = Json.newObject();
-		ob.add("type", "Ground");
-        ob.add("x", x);
-		ob.add("y", y);
-		ob.add("w", w);
-		ob.add("h", h);
-        return ob;
-	}
 
 }

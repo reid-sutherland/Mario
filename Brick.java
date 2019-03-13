@@ -20,16 +20,6 @@ class Brick extends Sprite
 		h = brickImage.getHeight();
 	}
 
-	Brick(Json ob, Model _m)
-	{
-		x = (int)ob.getLong("x");
-		y = (int)ob.getLong("y");
-		model = _m;
-		collision = true;
-
-		w = brickImage.getWidth();
-		h = brickImage.getHeight();
-	}
 	
 	void draw(Graphics g, int cameraPos)
 	{
@@ -55,14 +45,6 @@ class Brick extends Sprite
 	{
 		return false;
 	}
-	
-	Json marshal()
-    {
-        Json ob = Json.newObject();
-        ob.add("type", "Brick");
-        ob.add("x", x);
-		ob.add("y", y);
-        return ob;
-    }
+
 	
 }
